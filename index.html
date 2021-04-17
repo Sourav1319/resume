@@ -1,0 +1,74 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<!-- <title>Resume</title> -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Raleway:500,200,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="resume.css">
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+<script src="resume.js"></script>
+
+</head><body ng-app="Resume" ng-cloak="">
+    <resume>
+        <resume-heading first-name="Sourav" last-name="Singh" linkedin="Connect" github="sourav1319" email="myMail" website="MyPoRTFolio">
+        </resume-heading>
+
+            <resume-column flex="900">
+                <category name="Education">
+                    <bold>
+                    <category-item title="National Institute of Technology,Jamshedpur" date="2018 - 2022">
+                    <li>B.Tech : Electronics and Communications Engineering,CGPA 8.19</li>
+                        <!-- <li>Software Design | Algorithms and Data Structures | Operating Systems | Distributed Systems</li> -->
+                    </category-item>
+                </category>
+
+                <category name="Skills">
+                    <skill-item languages="C++ | JavaScript | Java | SQL" technologies="Git | HTML/CSS | MySQL | Node.js | React"></skill-item>
+                </category>
+
+                <category name="Projects">
+                    <category-item title="E-Commerce Platform">
+                        <li>Users can browse and add items to their shopping cart.Admins have their separate page where they will know what products they are selling on the site</li>
+                        <li>Database Handling is done from scratch, no external applicaton is used</li>
+                        <li>Built using Node.js and Bulma Css.Express-validator was used to handle validation</li>
+                    </category-item>
+                    <category-item title="YelpCamp">
+                        <li>A Platform where users can create and review campgrounds.</li>
+                        <li>This project was created using Node.js, Express, MongoDB, and Bootstrap</li>
+                        <li>Passport.js was used to handle authentication.</li> 
+                    </category-item>
+                    <category-item title="Movie-Fight">
+                        <li>A site where friends can fight out with their favourite movies</li>
+                        <li>Omdb Api is used to fetch information about the movies</li>
+                        <li>Built using javascript and bulma css framework</li>
+                    </category-item>
+                    <category-item title="Maze-Game">
+                        <li>A simple maze game built using matter.js and canvas for fun.</li>
+                    </category-item>
+                </category>
+
+                <category name ="Awards">
+                    <category-item title="BinarySearch-Weekly Contests" date="2021">
+                        <li>Rank 434</li>
+                        <!-- <li>Top 13.89%</li> -->
+                    </category-item>
+                </category>
+                <category name="Volunteering and Activites">
+
+                        <li>Member of QuNiTe, quizzing club</li>
+                        <li>Content Coordinator at Manthan,Official Institute Magazine</li>
+
+                </category>
+                    <category></category>
+                    <category></category>
+
+            </resume-column>
+        
+    </resume>
+
+
+</body></html>
