@@ -25,7 +25,7 @@ angular.module('Resume', ['ngMaterial'])
     template: `<div class="header">
       <div class="page-title-container">
         <h3 class="page-title page-title-first">{{firstName}}</h3>
-        <h3 class="page-title page-title-last" style="color:#1a8dff, font-weight:700;">{{lastName}}</h3>
+        <h3 class="page-title page-title-last" style="color:#1a8dff">{{lastName}}</h3>
       </div>
       <div class="header-icons">
         <span ng-if="website" class="md-subhead page-subhead"><a target="_blank" href="https://keen-raman-ecb495.netlify.app/#products" style="color:black"><i class="fa fa-lg fa-code"></i>{{website}}</a></span>
