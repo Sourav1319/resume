@@ -102,7 +102,7 @@ strong {
 }
 .resume .main .category-row p,
 .resume .main .category-row li {
-  font-size: 15px;
+  font-size: 17px
   /*font-weight:500 !important;*/
 }
 sidebar-category:last-of-type .category {
@@ -120,4 +120,7 @@ category:last-of-type category-item:last-of-type .category {
 }
 .ax{
   font-weight:501 !important;
+}
+.sdf{
+  font-size:17px !important;
 }
